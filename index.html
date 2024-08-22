@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotoGraph</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- SWIPERJS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav_container">
+        <a href="index.html" title="logo"
+          ><img src="./assets/logo.png" alt="logo" class="nav_logo"
+        /></a>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#exhibitions">Exhibitions</a></li>
+        </ul>
+        <ul class="nav_socials">
+          <li>
+            <a href="https/instagram.com/" title="instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https/linkedin.com/" title="linkedin"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https/youtube.com/" title="youtube"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+        <button class="nav_toggle-btn" id="nav_toggle-open" title="bars">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="nav_toggle-btn" id="nav_toggle-close" title="close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- ==================================== END OF NAV ============================== -->
+    <header>
+      <div class="container header_container">
+        <div class="header_left">
+          <div class="header_image-bg"></div>
+          <div class="header_image-lg">
+            <img src="./assets/header.jpg" alt="Header Image" />
+          </div>
+          <div class="header_image-sm">
+            <img src="./assets/header.jpg" alt="Header Image" />
+          </div>
+        </div>
+        <div class="header_right">
+          <div class="header_head">
+            <div class="empty header_empty"></div>
+            <a class="header_tag">#Best Travel Photographer 2024 </a>
+          </div>
+          <h1>See The Beauty Of The World Through My Lense</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            nihil praesentium inventore reprehenderit aut at, perspiciatis
+            quidem. Maiores obcaecati eaque corrupti voluptatibus consectetur
+            recusandae aut sed exercitationem, adipisci, iure voluptate quia
+            ipsa repellat, provident laudantium.
+          </p>
+          <a href="mailto:irhamkamil8322@gmail.com" class="header_btn-md"
+            >Let's Talk</a
+          >
+        </div>
+      </div>
+    </header>
+    <section class="header_frames">
+      <div class="header_frame">
+        <img src="./assets/frame1.jpg" alt="Header Frame One" />
+      </div>
+      <div class="header_frame">
+        <img src="./assets/frame2.jpg" alt="Header Frame Two" />
+      </div>
+    </section>
+    <a href="mailto:irhamkamil8322@gmail.com" class="contact_btn header_btn">
+      <i class="fa-solid fa-arrow-right"></i>
+      <p>CONTACT - SEND ME AN EMAIL</p>
+    </a>
+    <!-- ==================================== END OF HEADER ============================== -->
+
+    <section id="about">
+      <div class="container about_container">
+        <h2 class="about_title">
+          About <br />
+          Diana Ayi
+        </h2>
+        <a href="mailto:irhamkamil8322@gmail.com" class="contact_btn about_btn">
+          <i class="fa-solid fa-arrow-right"></i>
+          <p>CONTACT - SEND ME AN EMAIL</p>
+        </a>
+        <div class="about_left">
+          <div class="about_image">
+            <div class="about_image-bg"></div>
+            <div class="about_image-lg">
+              <img src="./assets/about.jpg" alt="about diana" />
+            </div>
+            <div class="about_image-sm">
+              <img src="./assets/about.jpg" alt="about diana" />
+            </div>
+          </div>
+        </div>
+        <div class="about_right">
+          <div class="empty about_empty"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            cupiditate ipsam quis excepturi quia. Adipisci dolor corporis
+            distinctio provident odio.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+            dolorum exercitationem omnis modi nobis commodi minus repellat quod
+            inventore. Aliquam dolore ad tempora! Molestiae praesentium repellat
+            dolorem, neque accusantium amet.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            cupiditate ipsam quis excepturi quia. Adipisci dolor corporis
+            distinctio provident odio.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ==================================== END OF ABOUT ============================== -->
+
+    <section id="gallery">
+      <div class="container gallery_container swiper mySwiper">
+        <div class="gallery_head">
+          <h2 class="gallery_title">My Gallery</h2>
+          <div class="empty gallery_empty"></div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+          quaerat necessitatibus, facilis incidunt laborum, perspiciatis
+          corporis officia mollitia quibusdam ex dolores, enim quia autem iusto.
+        </p>
+        <div class="swiper-wrapper">
+          <article class="swiper-slide">
+            <img src="./assets/gallery1.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery2.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery3.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery4.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery5.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery6.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery7.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery8.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery9.jpg" alt="" />
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery10.jpg" alt="" />
+          </article>
+          </article>
+          <article class="swiper-slide">
+            <img src="./assets/gallery11.jpg" alt="" />
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- ==================================== END OF GALLERY ============================== -->
+     <section id="exhibitions">
+      <div class="container exhibitions_container">
+        <h2 class="exhibitions_title">Exhibitions</h2>
+        <div class="empty exhibitions_empty"></div>
+        <div class="exhibitions_head">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam alias explicabo mollitia magnam sed est totam consequuntur quia, recusandae ex eius distinctio cupiditate maxime inventore! Doloribus quis obcaecati ratione quos.
+          </p>
+          <a href="mailto:irhamkamil8322@gmail.com" class="contact_btn exhibitions_btn">
+            <i class="fa-solid fa-arrow-right"></i>
+            <p>CONTACT - SEND ME AN EMAIL</p>
+          </a>
+        </div>
+        <div class="exhibitions_gallery">
+          <article>
+            <img src="./assets/ev.jpg" alt="">
+          </article>
+          <article>
+            <img src="./assets/e1.jpg" alt="">
+          </article>
+          <article>
+            <img src="./assets/e2.jpg" alt="">
+          </article>
+          <article>
+            <img src="./assets/eh.jpg" alt="">
+          </article>
+          <article>
+            <img src="./assets/e3.jpg" alt="">
+          </article>
+          <article>
+            <img src="./assets/e4.jpg" alt="">
+          </article>
+          </article>
+          <article>
+            <img src="./assets/e5.jpg" alt="">
+          </article>
+        </div>
+      </div>
+     </section>
+     <!-- ==================================== END OF EXHIBITIONS ============================== -->
+    
+     <footer>
+      <div class="container footer_container">
+        <div class="footer_head">
+          <h2 class="footer_title">irhamkamil8322@gmail.com</h2>
+          <a href="mailto:irhamkamil8322@gmail.com" class="footer_btn" title="footer">
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <ul class="footer_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#exhibitions">Exhibitions </a></li>
+        </ul>
+      </div>
+     </footer>
+
+     <!-- SWIPER JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
